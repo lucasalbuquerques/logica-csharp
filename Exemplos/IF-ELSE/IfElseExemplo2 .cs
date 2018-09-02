@@ -8,6 +8,7 @@ namespace primeiro_projeto.Exemplos.IF_ELSE
         public static void a()
         {
             Console.WriteLine("Olá");
+            Console.WriteLine("ola dois , é um teste do GIT");
             Console.ReadLine();
         }
     }

@@ -46,6 +46,7 @@
     <Compile Include="Exemplos\IF-ELSE\IfElseExemplo1.cs" />
     <Compile Include="Exemplos\IF-ELSE\IfElseExemplo2 .cs" />
     <Compile Include="Exemplos\IF-ELSE\IfElseExemplo3.cs" />
+    <Compile Include="Exemplos\Vetores\Vetor2.cs" />
     <Compile Include="Exemplos\Vetores\VetoresExemplo1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

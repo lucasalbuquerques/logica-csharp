@@ -9,13 +9,13 @@ namespace primeiro_projeto
     {
         static void Main(string[] args)
         {
-            double idade, soma, quantidade,media;
+            double idade, soma, quantidade, media;
 
             idade = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             soma = 0.0;
             quantidade = 0;
 
-            while (idade >=0)
+            while (idade >= 0)
             {
                 soma = soma + idade;
                 quantidade = quantidade + 1;

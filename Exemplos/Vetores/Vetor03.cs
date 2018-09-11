@@ -49,4 +49,6 @@ namespace primeiro_projeto.Exemplos.Vetores
 
             Console.ReadLine();
         }
+    }
 }
+

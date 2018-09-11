@@ -5,9 +5,9 @@ using primeiro_projeto.Exemplos.Vetores;
 
 namespace primeiro_projeto
 {
-    class Program
+    class While01
     {
-        static void Main(string[] args)
+        static void outracoisa (string[] args)
         {
             double idade, soma, quantidade, media;
 

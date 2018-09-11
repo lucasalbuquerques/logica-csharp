@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Globalization;
 
-
-namespace Program
+namespace primeiro_projeto.Exemplos.Vetores
 {
-    class Program
+    class Vetor03
     {
-        static void Main(string[] args)
+        static void vVetor03(string[] args)
         {
             int N;
             N = int.Parse(Console.ReadLine());
@@ -15,7 +14,7 @@ namespace Program
             int[] idades = new int[N];
             double[] alturas = new double[N];
             // Leitura de dados
-            for(int i = 0; i < N; i++)
+            for (int i = 0; i < N; i++)
             {
                 string[] s = Console.ReadLine().Split(' ');
                 nomes[i] = s[0];
@@ -26,7 +25,7 @@ namespace Program
             // Calculo da idade media das pessoas
 
             double soma = 0.0;
-            for(int i = 0; i < N; i++)
+            for (int i = 0; i < N; i++)
             {
                 soma = soma + alturas[i];
             }
@@ -36,7 +35,7 @@ namespace Program
             // Porcentagem de pessoas abaixo de 16 anos
 
             int cont = 0;
-            for(int i = 0; i < N; i++)
+            for (int i = 0; i < N; i++)
             {
                 if (idades[i] < 16)
                 {
@@ -49,7 +48,5 @@ namespace Program
             Console.WriteLine("Pessoas com menos de 16 anos: " + porcentagem.ToString("F2", CultureInfo.InvariantCulture) + "%");
 
             Console.ReadLine();
-            
         }
-    }
 }

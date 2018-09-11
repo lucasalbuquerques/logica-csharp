@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Globalization;
 
 
-namespace Program
+namespace primeiro_projeto.Exemplos.Vetores
 {
-    class Program
+    class Matriz01
     {
-        static void Main(string[] args)
+        static void mmatriz01(string[] args)
         {
             int M, N;
             int[,] A;
@@ -15,11 +14,11 @@ namespace Program
             M = int.Parse(s1[0]);
             N = int.Parse(s1[1]);
             A = new int[M, N];
-            
-            for(int i = 0; i < M; i++)
+
+            for (int i = 0; i < M; i++)
             {
                 string[] s = Console.ReadLine().Split(' ');
-                for (int j=0; j < N; j++)
+                for (int j = 0; j < N; j++)
                 {
                     A[i, j] = int.Parse(s[j]);
                 }
@@ -27,7 +26,7 @@ namespace Program
 
             for (int i = 0; i < M; i++)
             {
-                for(int j = 0; j < N; j++)
+                for (int j = 0; j < N; j++)
                 {
                     Console.Write(A[i, j] + " ");
                 }
